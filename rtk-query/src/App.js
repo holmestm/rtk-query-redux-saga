@@ -1,11 +1,11 @@
-import { useGetTodosQuery } from "./features/userSlice";
+import { useGetUsersQuery } from "./features/userSlice";
 
 function App() {
   const {
     data: users,
     isLoading,
     isSuccess,
-  } = useGetTodosQuery()  
+  } = useGetUsersQuery()  
 
   return (
     <div className="App">
